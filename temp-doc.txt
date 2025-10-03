@@ -1,0 +1,6 @@
+5.1. Can you explain the copy (cp ../temp-* .) command used above?
+O copy foi usado para copiar (cp) todos os arquivos do diretório anterior (..) que começam por temp- para o atual (.) sem envolver o controle de versão.
+5.2. Can you explain why, in this case, we did not have to do git init?
+Não tivemos que usar git init porque só queremos copiar os arquivos e não criar um novo diretório git em um repositório com controle de versão.
+5.3. Can you commit the files copied? What do you need to do? Execute the commands that are needed.
+Sim, posso. Preciso usar os comandos $ git commit * -m "novas alterações adicionadas". 
